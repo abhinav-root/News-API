@@ -1,0 +1,19 @@
+{
+  "name": "news-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  }
+}
